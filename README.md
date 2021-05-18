@@ -51,3 +51,16 @@ Hot upgrade with no downtime:
 ```
 mix system.upgrade
 ```
+
+### Demo with multiple instances
+
+```
+iex --name node1@127.0.0.1 --cookie super_secret -S mix phx.server
+```
+
+Para levantar otro servicio basta con hacer...
+
+```
+mix System.Node2
+```
+
